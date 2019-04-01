@@ -67,3 +67,6 @@ UPDATE people SET name = 'John Moir' WHERE name = 'John Muir';
 
 -- 5)
 DELETE FROM movies WHERE title = 'Batman Begins';
+
+-- 6)
+INSERT INTO people (name) VALUES ('Ally McGilloway')
