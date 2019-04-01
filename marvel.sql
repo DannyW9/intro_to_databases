@@ -69,4 +69,10 @@ UPDATE people SET name = 'John Moir' WHERE name = 'John Muir';
 DELETE FROM movies WHERE title = 'Batman Begins';
 
 -- 6)
-INSERT INTO people (name) VALUES ('Ally McGilloway')
+INSERT INTO people (name) VALUES ('Ally McGilloway');
+
+-- 7)
+DELETE FROM people WHERE name = 'Tony Goncalves';
+
+-- 8)
+INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel',  2019, '00:00');
