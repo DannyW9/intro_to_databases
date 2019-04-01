@@ -76,3 +76,7 @@ DELETE FROM people WHERE name = 'Tony Goncalves';
 
 -- 8)
 INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel',  2019, '00:00');
+
+-- 9)
+-- SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
+UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
