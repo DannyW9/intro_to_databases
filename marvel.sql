@@ -28,7 +28,7 @@ INSERT INTO people (name) VALUES ('Anne McKendry');
 INSERT INTO people (name) VALUES ('John Muir');
 INSERT INTO people (name) VALUES ('Kevin O`Hagan');
 INSERT INTO people (name) VALUES ('Darren Shankland');
-INSERT INTO people (name) VALUES ('Danny	Welsh');
+INSERT INTO people (name) VALUES ('Danny Welsh');
 INSERT INTO people (name) VALUES ('Theo Wright');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '15:10');
@@ -54,9 +54,16 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man and the Wasp', 2018, '20:15');
 
 -- 1)
-SELECT * FROM movies;
+-- SELECT * FROM movies;
 
 -- 2)
-SELECT name FROM people;
+-- SELECT name FROM people;
 
 -- 3)
+UPDATE people SET name = 'John Moir' WHERE name = 'John Muir';
+
+-- 4)
+-- SELECT * FROM people WHERE name = 'Danny Welsh';
+
+-- 5)
+DELETE FROM movies WHERE title = 'Batman Begins';
