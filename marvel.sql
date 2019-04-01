@@ -11,7 +11,9 @@ CREATE TABLE movies (
 CREATE TABLE people (
 	id SERIAL8 PRIMARY KEY,
 	name VARCHAR(255)
-);INSERT INTO people (name) VALUES ('Atyha	Arshad');
+);
+
+INSERT INTO people (name) VALUES ('Atyha	Arshad');
 INSERT INTO people (name) VALUES ('Calum Cannon');
 INSERT INTO people (name) VALUES ('Stelios Constantinou-Briggs');
 INSERT INTO people (name) VALUES ('Sridevi Dara');
@@ -50,3 +52,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '20:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '14:20');
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '14:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man and the Wasp', 2018, '20:15');
+
+-- 1)
+SELECT * FROM movies;
+
+-- 2)
+SELECT name FROM people;
+
+-- 3)
