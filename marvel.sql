@@ -82,4 +82,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel',  2019, '00
 UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
 
 -- Extension
-DELETE from movies WHERE title IN ('Iron Man', 'The Incredible Hulk');
+DELETE FROM movies WHERE title IN ('Iron Man', 'The Incredible Hulk');
+-- LIKE ('Da%'); LIKE ('%Mc%');
+-- BETWEEN 2 AND 6;
+-- WHERE id >=2;
